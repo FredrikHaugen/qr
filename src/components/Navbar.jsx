@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import React from 'react';
 import Logo from '../assets/Asset 1.svg';
 
 function Navbar() {
@@ -10,15 +10,9 @@ function Navbar() {
         <h1 className=' text-white text-2xl'>Some Name</h1>
       </div>
       <div className='flex'>
-        <Link to="/" className='px-4 py-2 mx-2 bg-slate-500 text-white rounded-md shadow hover:shadow-lg active:bg-slate-600 transition duration-200 ease-in-out'>
-          Home
-        </Link>
-        <Link to="/qr-gen" className='px-4 py-2 mx-2 bg-slate-500 text-white rounded-md shadow hover:shadow-lg active:bg-slate-600 transition duration-200 ease-in-out'>
-          QR-Gen
-        </Link>
-        <Link to="/dashboard" className='px-4 py-2 mx-2 bg-slate-500 text-white rounded-md shadow hover:shadow-lg active:bg-slate-600 transition duration-200 ease-in-out'>
-          Dashboard
-        </Link>
+        <Link to="/" className='px-4 py-2 mx-2 bg-slate-500 text-white rounded-md shadow hover:shadow-lg active:bg-slate-600 transition duration-200 ease-in-out'>Home</Link>
+        <Link to="/qr-gen" className='px-4 py-2 mx-2 bg-slate-500 text-white rounded-md shadow hover:shadow-lg active:bg-slate-600 transition duration-200 ease-in-out'>QR-Gen</Link>
+        <Link to="/dashboard" className='px-4 py-2 mx-2 bg-slate-500 text-white rounded-md shadow hover:shadow-lg active:bg-slate-600 transition duration-200 ease-in-out'>Dashboard</Link>
       </div>
     </div>
   )
