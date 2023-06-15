@@ -11,7 +11,7 @@ function QrGen() {
 
   return (
     <div className='h-screen w-screen bg-gradient-to-tr from-amber-200 to-slate-300 flex flex-col items-center justify-center space-y-8'>
-      <h1 className='text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-500 text-6xl font-bold'>
+      <h1 className='text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-500 text-6xl font-thin'>
         Generate QR Code
       </h1>
       <input
