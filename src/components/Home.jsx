@@ -46,9 +46,17 @@ function Home() {
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto text-2xl text-white text-opacity-70 backdrop-blur-lg bg-clip-text bg-gradient-to-br from-green-400 to-blue-400">
-  <p>Create personalized QR codes for your links effortlessly on our website. Sign up for an account to unlock a comprehensive dashboard that provides insightful analytics, tracking the performance of your QR codes, including scan locations, demographics, and age groups.</p>
-</div>
+      <div 
+        className="max-w-2xl mx-auto rounded-2xl p-8 backdrop-blur-lg bg-clip-text bg-gradient-to-br from-green-400 to-blue-400"
+        style={{
+          backdropFilter: 'blur(10px)',
+          backgroundColor: 'rgba(255,255,255,0.15)',
+          border: '1px solid rgba(255,255,255,0.4)',
+          backgroundImage: 'linear-gradient(45deg, rgba(255,255,255,0.05), rgba(255,255,255,0.15))',
+        }}>
+        <p className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-500 text-3xl font-thin p-2">Create personalized QR codes for your links effortlessly on our website. Sign up for an account to unlock a comprehensive dashboard that provides insightful analytics, tracking the performance of your QR codes, including scan locations, demographics, and age groups.</p>
+      </div>
+
 
       
       {transitions((style, item) =>

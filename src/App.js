@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App scroll-smooth">
       <Router>
-        <Navbar className=' z-10'/>
+        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/qr-gen" element={<QRGenPage />} />
