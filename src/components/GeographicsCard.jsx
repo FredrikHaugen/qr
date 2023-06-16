@@ -11,7 +11,7 @@ function GeographicsCard() {
       }}
     >
       <h1 className='text-transparent py-2 bg-clip-text bg-gradient-to-br from-red-400 to-blue-400 text-4xl font-thin'>
-      Scans</h1>
+      Geographics</h1>
       <p>Placeholder for geographics data</p>
     </div>
   );
