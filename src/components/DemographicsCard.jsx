@@ -1,7 +1,9 @@
 import React from 'react';
 
-function DemographicsCard() {
+function DemographicsCard({ className }) {
   return (
+    <div className={`rounded-2xl px-12 py-4 text-center ${className}`}>
+      
     <div className="rounded-2xl px-12 py-4 text-center"
       style={{
         backdropFilter: 'blur(10px)',
@@ -13,6 +15,7 @@ function DemographicsCard() {
       <h1 className='text-transparent py-2 bg-clip-text bg-gradient-to-br from-red-400 to-blue-400 text-4xl font-thin'>
       Demographics</h1>
       <p>Placeholder for demographics data</p>
+    </div>
     </div>
   );
 }

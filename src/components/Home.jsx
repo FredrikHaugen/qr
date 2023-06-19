@@ -33,7 +33,7 @@ function Home() {
     <div className='h-screen w-screen bg-gradient-to-tr from-pink-200 to-slate-300 pt-8'>
     <div className={modalIsOpen ? 'blur' : ''}>
     <div className="h-screen w-screen bg-gradient-to-tr from-pink-200 to-slate-300 flex flex-col items-center justify-top py-24 space-y-8">
-      <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-500 text-6xl font-thin p-2">Omnia</h1>
+      <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-500 text-6xl font-thin p-2">QRanalytics</h1>
       <div className="relative w-10/12 md:w-1/2 lg:w-1/3 xl:w-1/4 2xl:w-1/5 h-[35%]">
       <Logo className="w-full h-full opacity-10 oceanMove" />
         <div className="absolute inset-0 flex items-center justify-center space-x-2">

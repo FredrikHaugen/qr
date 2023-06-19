@@ -22,7 +22,7 @@ function Navbar() {
     <div className='fixed top-0 w-full bg-slate-700 h-[5vh] flex items-center justify-between px-6 py-3 shadow-md backdrop-filter backdrop-blur-md bg-opacity-90 border-b-[1px] border-white z-50 '>
       <div className='flex items-center'>
         <img src={Logo} alt="logo" className='mr-4 w-[4vh] h-[4vh]' />
-        <h1 className='text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-blue-400 text-4xl font-thin'>Omnia</h1>
+        <h1 className='text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-blue-400 text-4xl font-thin'>QRanalytics</h1>
       </div>
       {isTabletOrMobile ? (
         <div>

@@ -36,9 +36,9 @@ function Dashboard() {
       />
       <div className='grid grid-cols-2 gap-4'>
         <ClicksCard days={days} />
-        <ScansCard days={days}/>
-        <DemographicsCard />
-        <GeographicsCard />
+        <ScansCard days={days} className="row-span-2"/>
+        <DemographicsCard className="col-span-2"/>
+        <GeographicsCard className="col-span-2"/>
       </div>
     </div>
   )
